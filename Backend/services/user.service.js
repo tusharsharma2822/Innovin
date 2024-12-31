@@ -13,5 +13,5 @@ export const createUser = async ({
         email,
         password: hashedPassword
     });
-    return await user.save();
+    return await user;
 }
